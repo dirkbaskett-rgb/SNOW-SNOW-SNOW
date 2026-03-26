@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Mountain placeholder</title>
+  <desc id="desc">Stylized mountain placeholder image for ski resort cards.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b9dcf1"/>
+      <stop offset="100%" stop-color="#eef6fc"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dcebf7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky)"/>
+  <circle cx="640" cy="90" r="42" fill="#ffffff" opacity="0.75"/>
+  <path d="M0 360 L130 230 L220 310 L335 150 L470 330 L575 210 L720 360 L800 290 L800 450 L0 450 Z" fill="#9fc7df"/>
+  <path d="M0 390 L120 280 L205 340 L350 180 L485 360 L605 235 L760 390 L800 355 L800 450 L0 450 Z" fill="#6ea0c4"/>
+  <path d="M265 255 L350 180 L420 285 L350 248 Z" fill="url(#snow)"/>
+  <path d="M520 310 L605 235 L675 325 L605 295 Z" fill="url(#snow)"/>
+  <path d="M70 450 Q220 390 400 420 T800 390 L800 450 Z" fill="#f8fcff"/>
+</svg>
